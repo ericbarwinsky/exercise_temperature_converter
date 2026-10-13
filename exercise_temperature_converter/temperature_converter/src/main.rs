@@ -1,10 +1,10 @@
 fn main() {
-    println!("--- Temperatur-Umrechner ---");
+    println!("--- Temperature Converter ---");
 
     let celsius: f64 = 25.0;
     let fahrenheit = celsius_to_fahrenheit(celsius);
 
-    println!("{:.1} °C entsprechen {:.1} °F", celsius, fahrenheit);
+    println!("{:.1} °C is equivalent to {:.1} °F", celsius, fahrenheit);
 }
 
 fn celsius_to_fahrenheit(c: f64) -> f64 {
